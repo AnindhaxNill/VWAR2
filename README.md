@@ -22,7 +22,7 @@
 
 ## 🛠️ Requirements
 
-- Python 3.9 or later
+- Python 3.11.5 or later
 - Windows OS (uses WMIC & ctypes)
 - Internet connection (for license API and updates)
 
