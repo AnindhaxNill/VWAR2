@@ -41,7 +41,7 @@ class ScanPage(Frame):
         back_btn.place(x=10, y=10, width=80, height=30)
 
         # LOAD TEXT log box
-        self.LOAD_TEXT = Text(self, bg="#D9D9D9", fg="black", wrap="word")
+        self.LOAD_TEXT = Text(self,bd=0, bg="#D9D9D9", fg="black", wrap="word",highlightthickness=0)
         self.LOAD_TEXT.place(x=302, y=10, width=600, height=100)
 
         # Select File Button
@@ -85,7 +85,7 @@ class ScanPage(Frame):
         # Matched Files section
         matched_canvas = Canvas(self, bg="#AE0505", height=54, width=485, bd=0, highlightthickness=0, relief="ridge")
         matched_canvas.place(x=0, y=432)
-        matched_canvas.create_text(164, 15, anchor="nw", text="MATCHED FILES", fill="#FFFFFF", font=("Inter", 20))
+        matched_canvas.create_text(164, 15, anchor="nw", text="MATCHED FILES", fill="#FFFFFF", font=("Inter", 20 * -1))
 
         self.matched_text = Text(self, bg="#F0CDCD", fg="#000000", wrap="word")
         self.matched_text.place(x=0, y=488, width=485, height=232)
@@ -93,7 +93,7 @@ class ScanPage(Frame):
         # Tested Files section
         tested_canvas = Canvas(self, bg="#0A8D05", height=54, width=485, bd=0, highlightthickness=0, relief="ridge")
         tested_canvas.place(x=557, y=432)
-        tested_canvas.create_text(164, 15, anchor="nw", text="TESTED FILES", fill="#FFFFFF", font=("Inter", 20))
+        tested_canvas.create_text(164, 15, anchor="nw", text="TESTED FILES", fill="#FFFFFF", font=("Inter", 20 * -1))
 
         self.tested_text = Text(self, bg="#B6F7AD", fg="#000000", wrap="word")
         self.tested_text.place(x=557, y=488, width=485, height=232)
@@ -104,8 +104,11 @@ class ScanPage(Frame):
             self.LOAD_TEXT.insert("end", msg + "\n")
         elif target == "matched":
             self.matched_text.insert("end", msg + "\n")
+            self.matched_text.see("end")
+            
         elif target == "tested":
             self.tested_text.insert("end", msg + "\n")
+            self.tested_text.see("end")  
 
     def select_file(self):
         path = filedialog.askopenfilename()

@@ -1,0 +1,8 @@
+{
+    "original_path": "d:/d/blog_site/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e",
+    "quarantined_path": "quarantine\\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e__20250529032438__9cbeae77b2162e55.quarantined",
+    "timestamp": "2025-05-29 03:24:38",
+    "matched_rules": [
+        "APT_MAL_DNS_Hijacking_Campaign_AA19_024A"
+    ]
+}

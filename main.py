@@ -5,7 +5,7 @@ import tkinter as tk
 from activation.license_utils import is_activated
 from activation.gui import show_activation_window
 from app_main import VWARScannerGUI
-
+from utils.update_checker import check_for_updates
 
 def is_admin():
     """
@@ -49,6 +49,7 @@ def main():
         show_activation_window(reason=reason)
         return
 
+    check_for_updates()
 
     # Step 3: Launch main GUI
     print("[INFO] Launching VWAR Scanner GUI...")

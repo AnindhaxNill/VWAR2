@@ -111,32 +111,61 @@ class MonitorPage(Frame):
         self.scanner.detail_text.insert("end", detail_text)
         self.scanner.detail_text.config(state="disabled")
 
+    # def delete_selected(self):
+    #     index = self.scanner.quarantine_listbox.curselection()
+    #     if not index:
+    #         return
+    #     selected = self.scanner.quarantine_listbox.get(index)
+    #     match = re.search(r"→ From:\s*(.+)", selected)
+    #     if not match:
+    #         messagebox.showerror("Error", "Could not parse original path.")
+    #         return
+    #     file_path = match.group(1)
+    #     fname = os.path.basename(file_path)
+    #     for file in os.listdir("quarantine"):
+    #         if file.startswith(fname) and file.endswith(".quarantined"):
+    #             qpath = os.path.join("quarantine", file)
+    #             mpath = qpath + ".meta"
+    #             try:
+    #                 if os.path.exists(qpath): os.remove(qpath)
+    #                 if os.path.exists(mpath): os.remove(mpath)
+    #                 self.scanner.quarantine_listbox.delete(index)
+    #                 self.scanner.detail_text.config(state="normal")
+    #                 self.scanner.detail_text.delete("1.0", "end")
+    #                 self.scanner.detail_text.config(state="disabled")
+    #                 self.scanner.update_quarantine_listbox()
+    #             except Exception as e:
+    #                 print(f"[ERROR] Delete failed: {e}")
+    #             break
+
     def delete_selected(self):
         index = self.scanner.quarantine_listbox.curselection()
         if not index:
             return
-        selected = self.scanner.quarantine_listbox.get(index)
-        match = re.search(r"→ From:\s*(.+)", selected)
-        if not match:
-            messagebox.showerror("Error", "Could not parse original path.")
+        index = index[0]
+
+        # ✅ Use stored meta path instead of parsing text
+        meta_path = self.scanner.display_index_to_meta.get(index)
+        if not meta_path:
+            messagebox.showerror("Error", "Metadata not found for selected file.")
             return
-        file_path = match.group(1)
-        fname = os.path.basename(file_path)
-        for file in os.listdir("quarantine"):
-            if file.startswith(fname) and file.endswith(".quarantined"):
-                qpath = os.path.join("quarantine", file)
-                mpath = qpath + ".meta"
-                try:
-                    if os.path.exists(qpath): os.remove(qpath)
-                    if os.path.exists(mpath): os.remove(mpath)
-                    self.scanner.quarantine_listbox.delete(index)
-                    self.scanner.detail_text.config(state="normal")
-                    self.scanner.detail_text.delete("1.0", "end")
-                    self.scanner.detail_text.config(state="disabled")
-                    self.scanner.update_quarantine_listbox()
-                except Exception as e:
-                    print(f"[ERROR] Delete failed: {e}")
-                break
+
+        qpath = meta_path.replace(".meta", "")
+        
+        try:
+            if os.path.exists(qpath): os.remove(qpath)
+            if os.path.exists(meta_path): os.remove(meta_path)
+
+            self.scanner.quarantine_listbox.delete(index)
+            self.scanner.detail_text.config(state="normal")
+            self.scanner.detail_text.delete("1.0", "end")
+            self.scanner.detail_text.config(state="disabled")
+            self.scanner.update_quarantine_listbox()
+            print(f"[INFO] Deleted {qpath} and metadata.")
+        except Exception as e:
+            print(f"[ERROR] Delete failed: {e}")
+
+
 
     def restore_quarantined_file(self):
         index = self.scanner.quarantine_listbox.curselection()
