@@ -10835,3 +10835,569 @@ yara.Error: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd
 [2025-05-29 03:39:02] [INFO] Compiled 6 YARA rule files.
 [2025-05-29 03:42:31] [INFO] YARA rules categorized and saved successfully.
 [2025-05-29 03:42:32] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 12:53:02] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 12:53:02] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:02:31] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:04:49] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:05:41] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:07:22] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:07:32] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:08:21] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:10:47] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:10:54] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:12:07] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:12:07] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:15:54] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:15:54] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:18:22] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:20:10] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:21:06] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:22:41] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:22:41] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:23:22] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:23:22] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:25:08] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:31:06] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:31:58] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:31:59] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:33:21] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:33:21] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:34:05] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:34:05] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:35:38] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:35:38] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:38:15] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:38:16] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:38:28] [INFO] Selected folder: C:/Users/bfini/Downloads
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 13:38:28] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 13:38:28] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\a4.pdf
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\ChatGPT Installer.exe
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\DAHCC, Practical session 2.ipynb
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\Data Structures & Algorithms in Python.pdf
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\desktop.ini
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\dokumen.pub_grokking-algorithms-second-edition-meap-v1-2nbsped.pdf
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\FreeCourseSite.com-Udemy - The Complete Data Structures and Algorithms Course in Python.torrent
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\innosetup-6.4.3.exe
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\Innovation reserch - for upcoming JPEG method.pdf
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\License Agreement VWAR (1).pdf
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\License Agreement VWAR.pdf
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\MSTeamsSetup.exe
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\ornamental_design_floral_spiritual_meditation_wellness_cultures_flower_mandala_icon_266274.ico
+[2025-05-29 13:38:28] C:/Users/bfini/Downloads\Postman-win64-Setup (1).exe
+[2025-05-29 13:38:29] C:/Users/bfini/Downloads\Postman-win64-Setup.exe
+[2025-05-29 13:38:30] C:/Users/bfini/Downloads\pp.jpg
+[2025-05-29 13:38:30] C:/Users/bfini/Downloads\Prince of Persia - The Lost Crown [FitGirl Repack].torrent
+[2025-05-29 13:38:30] C:/Users/bfini/Downloads\python-watchdog-readthedocs-io-en-latest.epub
+[2025-05-29 13:38:30] C:/Users/bfini/Downloads\Screenshot 2025-05-15 at 13-21-51 .png
+[2025-05-29 13:38:30] C:/Users/bfini/Downloads\utorrent_installer (1).exe
+[2025-05-29 13:38:30] C:/Users/bfini/Downloads\VWAR_Installer (1).exe
+[2025-05-29 13:38:31] C:/Users/bfini/Downloads\VWAR_Installer (2).exe
+[2025-05-29 13:38:31] C:/Users/bfini/Downloads\VWAR_Installer (3).exe
+[2025-05-29 13:38:31] C:/Users/bfini/Downloads\VWAR_Installer.exe
+[2025-05-29 13:38:31] C:/Users/bfini/Downloads\Working Process.pdf
+[2025-05-29 13:38:32] C:/Users/bfini/Downloads\WV-master.rar
+[2025-05-29 13:38:32] C:/Users/bfini/Downloads\y4.py
+[2025-05-29 13:38:32] C:/Users/bfini/Downloads\y4_with_tooltips (1).py
+[2025-05-29 13:38:32] C:/Users/bfini/Downloads\y4_with_tooltips.py
+[2025-05-29 13:38:32] C:/Users/bfini/Downloads\y4_with_tooltips_applied.py
+[2025-05-29 13:38:32] C:/Users/bfini/Downloads\~$rld-administrative-boundaries.geojson
+[2025-05-29 13:38:32] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\IDM 6.xx Activator or Resetter v3.1.zip
+[2025-05-29 13:38:32] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\idman642build3.exe
+[2025-05-29 13:38:32] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\Password = 123
+[2025-05-29 13:38:32] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\ReadMe.txt
+[2025-05-29 13:38:32] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\www.crackingcity.com - Free full version software.url
+[2025-05-29 13:38:32] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\IDM 6.xx Activator or Resetter v3.1\Password=123
+[2025-05-29 13:39:52] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:39:52] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:39:59] [INFO] Selected folder: C:/Users/bfini/Downloads
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 13:40:00] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 13:40:00] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\a4.pdf
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\ChatGPT Installer.exe
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\DAHCC, Practical session 2.ipynb
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\Data Structures & Algorithms in Python.pdf
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\desktop.ini
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\dokumen.pub_grokking-algorithms-second-edition-meap-v1-2nbsped.pdf
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\FreeCourseSite.com-Udemy - The Complete Data Structures and Algorithms Course in Python.torrent
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\innosetup-6.4.3.exe
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\Innovation reserch - for upcoming JPEG method.pdf
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\License Agreement VWAR (1).pdf
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\License Agreement VWAR.pdf
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\MSTeamsSetup.exe
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\ornamental_design_floral_spiritual_meditation_wellness_cultures_flower_mandala_icon_266274.ico
+[2025-05-29 13:40:00] C:/Users/bfini/Downloads\Postman-win64-Setup (1).exe
+[2025-05-29 13:40:01] C:/Users/bfini/Downloads\Postman-win64-Setup.exe
+[2025-05-29 13:40:02] C:/Users/bfini/Downloads\pp.jpg
+[2025-05-29 13:40:02] C:/Users/bfini/Downloads\Prince of Persia - The Lost Crown [FitGirl Repack].torrent
+[2025-05-29 13:40:02] C:/Users/bfini/Downloads\python-watchdog-readthedocs-io-en-latest.epub
+[2025-05-29 13:40:02] C:/Users/bfini/Downloads\Screenshot 2025-05-15 at 13-21-51 .png
+[2025-05-29 13:40:02] C:/Users/bfini/Downloads\utorrent_installer (1).exe
+[2025-05-29 13:40:02] C:/Users/bfini/Downloads\VWAR_Installer (1).exe
+[2025-05-29 13:40:02] C:/Users/bfini/Downloads\VWAR_Installer (2).exe
+[2025-05-29 13:40:02] C:/Users/bfini/Downloads\VWAR_Installer (3).exe
+[2025-05-29 13:40:02] C:/Users/bfini/Downloads\VWAR_Installer.exe
+[2025-05-29 13:40:02] C:/Users/bfini/Downloads\Working Process.pdf
+[2025-05-29 13:40:02] C:/Users/bfini/Downloads\WV-master.rar
+[2025-05-29 13:40:03] C:/Users/bfini/Downloads\y4.py
+[2025-05-29 13:40:03] C:/Users/bfini/Downloads\y4_with_tooltips (1).py
+[2025-05-29 13:40:03] C:/Users/bfini/Downloads\y4_with_tooltips.py
+[2025-05-29 13:40:03] C:/Users/bfini/Downloads\y4_with_tooltips_applied.py
+[2025-05-29 13:40:03] C:/Users/bfini/Downloads\~$rld-administrative-boundaries.geojson
+[2025-05-29 13:40:03] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\IDM 6.xx Activator or Resetter v3.1.zip
+[2025-05-29 13:40:03] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\idman642build3.exe
+[2025-05-29 13:40:03] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\Password = 123
+[2025-05-29 13:40:03] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\ReadMe.txt
+[2025-05-29 13:40:03] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\www.crackingcity.com - Free full version software.url
+[2025-05-29 13:40:03] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\IDM 6.xx Activator or Resetter v3.1\Password=123
+[2025-05-29 13:40:12] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 13:40:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 13:40:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 13:40:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 13:40:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 13:40:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 13:40:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 13:40:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 13:40:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 13:41:39] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:41:39] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:41:55] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 13:41:55] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 13:46:57] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:46:57] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:47:08] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 13:47:31] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:47:31] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:48:47] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 13:48:48] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 13:49:12] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 13:49:12] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 13:54:17] [WARNING] YARA scan failed: could not open file "c:/program files/mozilla firefox/updated/updating/10.patch" — file likely gone: c:/program files/mozilla firefox/updated/updating/10.patch
+[2025-05-29 13:54:17] [WARNING] YARA scan failed: could not open file "c:/program files/mozilla firefox/updated/updating/7.patch" — file likely gone: c:/program files/mozilla firefox/updated/updating/7.patch
+[2025-05-29 14:16:31] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:16:31] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:16:47] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:16:47] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:16:47] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:16:47] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:16:47] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:16:47] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:19:34] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:19:34] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:19:37] [WARNING] YARA scan failed: could not open file "c:/users/bfini/desktop/µtorrent.lnk" — file likely gone: c:/users/bfini/desktop/µtorrent.lnk
+[2025-05-29 14:19:37] [WARNING] YARA scan failed: could not open file "c:/users/bfini/desktop/µtorrent.lnk" — file likely gone: c:/users/bfini/desktop/µtorrent.lnk
+[2025-05-29 14:19:48] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:19:48] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:27:09] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:27:10] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:27:26] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:27:26] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:27:26] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:27:26] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:30:00] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:30:01] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:30:10] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:30:10] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:30:10] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:30:10] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:30:10] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:30:10] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:30:10] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:32:57] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:32:57] [DEBUG] Starting RealTimeMonitor:
+[2025-05-29 14:32:57]   ➤ Watching: C:\Users\bfini
+[2025-05-29 14:32:57]   ➤ Watching: D:/
+[2025-05-29 14:32:57]   ➤ Watching: C:/
+[2025-05-29 14:32:57] [INFO] Processing pending files...
+[2025-05-29 14:32:57] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:33:06] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/rmonitoring/monitor_page.py
+[2025-05-29 14:33:06] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/rmonitoring/monitor_page.py
+[2025-05-29 14:33:06] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/rmonitoring/monitor_page.py
+[2025-05-29 14:33:06] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/rmonitoring/monitor_page.py
+[2025-05-29 14:33:06] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/rmonitoring/monitor_page.py
+[2025-05-29 14:33:07] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/rmonitoring/monitor_page.py
+[2025-05-29 14:33:07] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/rmonitoring/monitor_page.py
+[2025-05-29 14:33:07] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/rmonitoring/monitor_page.py
+[2025-05-29 14:33:07] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/rmonitoring/monitor_page.py
+[2025-05-29 14:33:07] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/rmonitoring/monitor_page.py
+[2025-05-29 14:33:26] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:33:26] [DEBUG] Starting RealTimeMonitor:
+[2025-05-29 14:33:26]   ➤ Watching: D:/
+[2025-05-29 14:33:26]   ➤ Watching: C:/
+[2025-05-29 14:33:26]   ➤ Watching: C:\Users\bfini
+[2025-05-29 14:33:26] [INFO] Processing pending files...
+[2025-05-29 14:33:26] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:33:42] [DEBUG] File event: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:42] [DEBUG] File event: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:42] [DEBUG] File event: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:42] [DEBUG] File event: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:42] [DEBUG] File event: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:42] [DEBUG] File event: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:42] [DEBUG] File event: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:43] [DEBUG] Scanning file: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:43] [DEBUG] Scanning file: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:43] [DEBUG] Scanning file: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:43] [DEBUG] Scanning file: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:43] [DEBUG] Scanning file: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:43] [DEBUG] Scanning file: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:43] [DEBUG] Scanning file: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:33:43] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:33:43] [ERROR] Failed scanning c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e: 'MonitorPage' object has no attribute 'pages'
+[2025-05-29 14:34:02] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:02] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:02] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:02] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:03] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:03] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:03] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:03] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:03] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:03] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:03] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:04] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:04] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:04] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:09] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:09] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:09] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:09] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:09] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:09] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:10] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:10] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:10] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:10] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:10] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/scanning/scanner_core.py
+[2025-05-29 14:34:41] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:34:41] [DEBUG] Starting RealTimeMonitor:
+[2025-05-29 14:34:41]   ➤ Watching: C:/
+[2025-05-29 14:34:41]   ➤ Watching: D:/
+[2025-05-29 14:34:41]   ➤ Watching: C:\Users\bfini
+[2025-05-29 14:34:41] [INFO] Processing pending files...
+[2025-05-29 14:34:41] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:34:52] [INFO] Selected folder: C:/Users/bfini/Downloads
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:34:52] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:34:52] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\a4.pdf
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\ChatGPT Installer.exe
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\DAHCC, Practical session 2.ipynb
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\Data Structures & Algorithms in Python.pdf
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\desktop.ini
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\dokumen.pub_grokking-algorithms-second-edition-meap-v1-2nbsped.pdf
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\FreeCourseSite.com-Udemy - The Complete Data Structures and Algorithms Course in Python.torrent
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\innosetup-6.4.3.exe
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\Innovation reserch - for upcoming JPEG method.pdf
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\License Agreement VWAR (1).pdf
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\License Agreement VWAR.pdf
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\MSTeamsSetup.exe
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\ornamental_design_floral_spiritual_meditation_wellness_cultures_flower_mandala_icon_266274.ico
+[2025-05-29 14:34:52] C:/Users/bfini/Downloads\Postman-win64-Setup (1).exe
+[2025-05-29 14:34:53] C:/Users/bfini/Downloads\Postman-win64-Setup.exe
+[2025-05-29 14:34:54] C:/Users/bfini/Downloads\pp.jpg
+[2025-05-29 14:34:54] C:/Users/bfini/Downloads\Prince of Persia - The Lost Crown [FitGirl Repack].torrent
+[2025-05-29 14:34:54] C:/Users/bfini/Downloads\python-watchdog-readthedocs-io-en-latest.epub
+[2025-05-29 14:34:54] C:/Users/bfini/Downloads\Screenshot 2025-05-15 at 13-21-51 .png
+[2025-05-29 14:34:54] C:/Users/bfini/Downloads\utorrent_installer (1).exe
+[2025-05-29 14:34:54] C:/Users/bfini/Downloads\VWAR_Installer (1).exe
+[2025-05-29 14:34:54] C:/Users/bfini/Downloads\VWAR_Installer (2).exe
+[2025-05-29 14:34:54] C:/Users/bfini/Downloads\VWAR_Installer (3).exe
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\VWAR_Installer.exe
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\Working Process.pdf
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\WV-master.rar
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\y4.py
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\y4_with_tooltips (1).py
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\y4_with_tooltips.py
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\y4_with_tooltips_applied.py
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\~$rld-administrative-boundaries.geojson
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\IDM 6.xx Activator or Resetter v3.1.zip
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\idman642build3.exe
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\Password = 123
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\ReadMe.txt
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\www.crackingcity.com - Free full version software.url
+[2025-05-29 14:34:55] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\IDM 6.xx Activator or Resetter v3.1\Password=123
+[2025-05-29 14:35:27] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:35:27] [DEBUG] Starting RealTimeMonitor:
+[2025-05-29 14:35:27]   ➤ Watching: C:/
+[2025-05-29 14:35:27]   ➤ Watching: D:/
+[2025-05-29 14:35:27]   ➤ Watching: C:\Users\bfini
+[2025-05-29 14:35:27] [INFO] Processing pending files...
+[2025-05-29 14:35:27] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:35:36] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/rmonitoring/real_time_monitor.py
+[2025-05-29 14:35:36] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/rmonitoring/real_time_monitor.py
+[2025-05-29 14:35:38] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/rmonitoring/real_time_monitor.py
+[2025-05-29 14:35:38] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/rmonitoring/real_time_monitor.py
+[2025-05-29 14:35:50] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/rmonitoring/real_time_monitor.py
+[2025-05-29 14:35:50] [DEBUG] File event: c:/users/bfini/desktop/vwar scanner/rmonitoring/real_time_monitor.py
+[2025-05-29 14:35:51] [DEBUG] Scanning file: c:/users/bfini/desktop/vwar scanner/rmonitoring/real_time_monitor.py
+[2025-05-29 14:35:56] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:35:56] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:36:09] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:36:09] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:36:09] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:36:09] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:36:09] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:36:09] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:37:48] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:37:48] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:37:57] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:37:57] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:37:57] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:37:57] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:37:57] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:37:57] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:37:57] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:39:18] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:39:18] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:39:25] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:39:25] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:39:25] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:39:25] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:39:25] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:39:25] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:39:25] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:39:43] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:39:43] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:40:06] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:40:06] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:40:06] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:40:06] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:40:06] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:40:06] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:40:41] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:40:41] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:40:51] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:40:51] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:40:51] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:40:51] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:40:51] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:40:51] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:40:52] [WARNING] Could not quarantine (file may be gone): Failed to quarantine c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e: File no longer exists after waiting: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:41:07] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:41:07] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:41:07] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:41:07] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:41:07] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:41:07] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:41:07] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:41:07] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:41:07] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:41:42] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:41:43] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:41:50] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:41:50] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:41:50] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:41:51] [WARNING] Could not quarantine (file may be gone): Failed to quarantine c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e: File no longer exists after waiting: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:41:51] [WARNING] Could not quarantine (file may be gone): Failed to quarantine c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e: File no longer exists after waiting: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:42:06] [INFO] Selected folder: C:/Users/bfini/Downloads
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:42:07] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:42:07] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\a4.pdf
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\ChatGPT Installer.exe
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\DAHCC, Practical session 2.ipynb
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\Data Structures & Algorithms in Python.pdf
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\desktop.ini
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\dokumen.pub_grokking-algorithms-second-edition-meap-v1-2nbsped.pdf
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\FreeCourseSite.com-Udemy - The Complete Data Structures and Algorithms Course in Python.torrent
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\innosetup-6.4.3.exe
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\Innovation reserch - for upcoming JPEG method.pdf
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\License Agreement VWAR (1).pdf
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\License Agreement VWAR.pdf
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\MSTeamsSetup.exe
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\ornamental_design_floral_spiritual_meditation_wellness_cultures_flower_mandala_icon_266274.ico
+[2025-05-29 14:42:07] C:/Users/bfini/Downloads\Postman-win64-Setup (1).exe
+[2025-05-29 14:42:08] C:/Users/bfini/Downloads\Postman-win64-Setup.exe
+[2025-05-29 14:42:09] C:/Users/bfini/Downloads\pp.jpg
+[2025-05-29 14:42:09] C:/Users/bfini/Downloads\Prince of Persia - The Lost Crown [FitGirl Repack].torrent
+[2025-05-29 14:42:09] C:/Users/bfini/Downloads\python-watchdog-readthedocs-io-en-latest.epub
+[2025-05-29 14:42:09] C:/Users/bfini/Downloads\Screenshot 2025-05-15 at 13-21-51 .png
+[2025-05-29 14:42:09] C:/Users/bfini/Downloads\utorrent_installer (1).exe
+[2025-05-29 14:42:09] C:/Users/bfini/Downloads\VWAR_Installer (1).exe
+[2025-05-29 14:42:09] C:/Users/bfini/Downloads\VWAR_Installer (2).exe
+[2025-05-29 14:42:09] C:/Users/bfini/Downloads\VWAR_Installer (3).exe
+[2025-05-29 14:42:09] C:/Users/bfini/Downloads\VWAR_Installer.exe
+[2025-05-29 14:42:09] C:/Users/bfini/Downloads\Working Process.pdf
+[2025-05-29 14:42:09] C:/Users/bfini/Downloads\WV-master.rar
+[2025-05-29 14:42:10] C:/Users/bfini/Downloads\y4.py
+[2025-05-29 14:42:10] C:/Users/bfini/Downloads\y4_with_tooltips (1).py
+[2025-05-29 14:42:10] C:/Users/bfini/Downloads\y4_with_tooltips.py
+[2025-05-29 14:42:10] C:/Users/bfini/Downloads\y4_with_tooltips_applied.py
+[2025-05-29 14:42:10] C:/Users/bfini/Downloads\~$rld-administrative-boundaries.geojson
+[2025-05-29 14:42:10] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\IDM 6.xx Activator or Resetter v3.1.zip
+[2025-05-29 14:42:10] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\idman642build3.exe
+[2025-05-29 14:42:10] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\Password = 123
+[2025-05-29 14:42:10] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\ReadMe.txt
+[2025-05-29 14:42:10] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\www.crackingcity.com - Free full version software.url
+[2025-05-29 14:42:10] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\IDM 6.xx Activator or Resetter v3.1\Password=123
+[2025-05-29 14:42:32] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:42:32] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:42:32] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:42:32] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:42:32] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:42:32] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:42:32] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:43:10] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:43:10] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:43:24] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:43:24] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:43:24] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:43:24] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:43:24] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:43:25] [WARNING] Could not quarantine (file may be gone): Failed to quarantine c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e: File no longer exists after waiting: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:44:02] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:44:02] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:44:02] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:44:02] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:44:02] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:44:02] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:44:02] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:44:03] [WARNING] Could not quarantine (file may be gone): Failed to quarantine c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e: File no longer exists after waiting: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:44:12] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:44:12] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1) => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:44:12] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1) => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:44:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:44:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:44:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:44:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:44:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:44:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:44:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:44:12] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:44:59] [INFO] Selected folder: C:/Users/bfini/Downloads
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:45:00] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:45:00] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\a4.pdf
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\ChatGPT Installer.exe
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\DAHCC, Practical session 2.ipynb
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\Data Structures & Algorithms in Python.pdf
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\desktop.ini
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\dokumen.pub_grokking-algorithms-second-edition-meap-v1-2nbsped.pdf
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\FreeCourseSite.com-Udemy - The Complete Data Structures and Algorithms Course in Python.torrent
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\innosetup-6.4.3.exe
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\Innovation reserch - for upcoming JPEG method.pdf
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\License Agreement VWAR (1).pdf
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\License Agreement VWAR.pdf
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\MSTeamsSetup.exe
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\ornamental_design_floral_spiritual_meditation_wellness_cultures_flower_mandala_icon_266274.ico
+[2025-05-29 14:45:00] C:/Users/bfini/Downloads\Postman-win64-Setup (1).exe
+[2025-05-29 14:45:01] C:/Users/bfini/Downloads\Postman-win64-Setup.exe
+[2025-05-29 14:45:01] C:/Users/bfini/Downloads\pp.jpg
+[2025-05-29 14:45:01] C:/Users/bfini/Downloads\Prince of Persia - The Lost Crown [FitGirl Repack].torrent
+[2025-05-29 14:45:01] C:/Users/bfini/Downloads\python-watchdog-readthedocs-io-en-latest.epub
+[2025-05-29 14:45:01] C:/Users/bfini/Downloads\Screenshot 2025-05-15 at 13-21-51 .png
+[2025-05-29 14:45:01] C:/Users/bfini/Downloads\utorrent_installer (1).exe
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\VWAR_Installer (1).exe
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\VWAR_Installer (2).exe
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\VWAR_Installer (3).exe
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\VWAR_Installer.exe
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\Working Process.pdf
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\WV-master.rar
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\y4.py
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\y4_with_tooltips (1).py
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\y4_with_tooltips.py
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\y4_with_tooltips_applied.py
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\~$rld-administrative-boundaries.geojson
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\IDM 6.xx Activator or Resetter v3.1.zip
+[2025-05-29 14:45:02] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\idman642build3.exe
+[2025-05-29 14:45:03] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\Password = 123
+[2025-05-29 14:45:03] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\ReadMe.txt
+[2025-05-29 14:45:03] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\www.crackingcity.com - Free full version software.url
+[2025-05-29 14:45:03] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\IDM 6.xx Activator or Resetter v3.1\Password=123
+[2025-05-29 14:49:47] [WARNING] YARA scan failed: could not open file "c:/program files/windowsapps/microsoft.microsoftsolitairecollection_4.22.4280.0_x64__8wekyb3d8bbwe/resources.pri" — file likely gone: c:/program files/windowsapps/microsoft.microsoftsolitairecollection_4.22.4280.0_x64__8wekyb3d8bbwe/resources.pri
+[2025-05-29 14:54:52] [INFO] YARA rules categorized and saved successfully.
+[2025-05-29 14:54:52] [INFO] Compiled 6 YARA rule files.
+[2025-05-29 14:55:00] [INFO] Selected folder: C:/Users/bfini/Downloads
+[2025-05-29 14:55:01] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:55:02] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:55:02] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:02] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1) => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:55:02] [MATCH] C:/Users/bfini/Downloads\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1) => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\a4.pdf
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\ChatGPT Installer.exe
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\DAHCC, Practical session 2.ipynb
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\Data Structures & Algorithms in Python.pdf
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\desktop.ini
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\dokumen.pub_grokking-algorithms-second-edition-meap-v1-2nbsped.pdf
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\FreeCourseSite.com-Udemy - The Complete Data Structures and Algorithms Course in Python.torrent
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\innosetup-6.4.3.exe
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\Innovation reserch - for upcoming JPEG method.pdf
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\License Agreement VWAR (1).pdf
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\License Agreement VWAR.pdf
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\MSTeamsSetup.exe
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\ornamental_design_floral_spiritual_meditation_wellness_cultures_flower_mandala_icon_266274.ico
+[2025-05-29 14:55:02] C:/Users/bfini/Downloads\Postman-win64-Setup (1).exe
+[2025-05-29 14:55:03] C:/Users/bfini/Downloads\Postman-win64-Setup.exe
+[2025-05-29 14:55:04] C:/Users/bfini/Downloads\pp.jpg
+[2025-05-29 14:55:04] C:/Users/bfini/Downloads\Prince of Persia - The Lost Crown [FitGirl Repack].torrent
+[2025-05-29 14:55:04] C:/Users/bfini/Downloads\python-watchdog-readthedocs-io-en-latest.epub
+[2025-05-29 14:55:04] C:/Users/bfini/Downloads\Screenshot 2025-05-15 at 13-21-51 .png
+[2025-05-29 14:55:04] C:/Users/bfini/Downloads\utorrent_installer (1).exe
+[2025-05-29 14:55:04] C:/Users/bfini/Downloads\VWAR_Installer (1).exe
+[2025-05-29 14:55:04] C:/Users/bfini/Downloads\VWAR_Installer (2).exe
+[2025-05-29 14:55:04] C:/Users/bfini/Downloads\VWAR_Installer (3).exe
+[2025-05-29 14:55:04] C:/Users/bfini/Downloads\VWAR_Installer.exe
+[2025-05-29 14:55:04] C:/Users/bfini/Downloads\Working Process.pdf
+[2025-05-29 14:55:04] C:/Users/bfini/Downloads\WV-master.rar
+[2025-05-29 14:55:05] C:/Users/bfini/Downloads\y4.py
+[2025-05-29 14:55:05] C:/Users/bfini/Downloads\y4_with_tooltips (1).py
+[2025-05-29 14:55:05] C:/Users/bfini/Downloads\y4_with_tooltips.py
+[2025-05-29 14:55:05] C:/Users/bfini/Downloads\y4_with_tooltips_applied.py
+[2025-05-29 14:55:05] C:/Users/bfini/Downloads\~$rld-administrative-boundaries.geojson
+[2025-05-29 14:55:05] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\IDM 6.xx Activator or Resetter v3.1.zip
+[2025-05-29 14:55:05] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\idman642build3.exe
+[2025-05-29 14:55:05] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\Password = 123
+[2025-05-29 14:55:05] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\ReadMe.txt
+[2025-05-29 14:55:05] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\www.crackingcity.com - Free full version software.url
+[2025-05-29 14:55:05] C:/Users/bfini/Downloads\idm.6.42.3_with_activator_v3.1\IDM 6.xx Activator or Resetter v3.1\Password=123
+[2025-05-29 14:55:30] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1) => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:55:30] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:30] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:30] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:30] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:30] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:55:30] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:55:30] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:55:30] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:55:30] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:55:30] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:55:30] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:30] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:30] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:55:31] [WARNING] Could not quarantine (file may be gone): Failed to quarantine c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1): File no longer exists after waiting: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:31] [WARNING] Could not quarantine (file may be gone): Failed to quarantine c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e: File no longer exists after waiting: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e
+[2025-05-29 14:55:44] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1) => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:55:44] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:44] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:44] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:44] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:44] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:44] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:44] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:44] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:45] [WARNING] Could not quarantine (file may be gone): Failed to quarantine c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1): File no longer exists after waiting: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (1)
+[2025-05-29 14:55:49] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (2)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (2)
+[2025-05-29 14:55:49] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (2)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (2)
+[2025-05-29 14:55:49] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (2)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (2)
+[2025-05-29 14:55:49] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (2)
+[2025-05-29 14:55:49] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (2) => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:55:53] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (3)
+[2025-05-29 14:55:53] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (3)
+[2025-05-29 14:55:53] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (3)
+[2025-05-29 14:55:53] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (3)
+[2025-05-29 14:55:53] [WARNING] Could not quarantine (file may be gone): File no longer exists: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (3)
+[2025-05-29 14:55:53] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (3) => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-05-29 14:55:54] [WARNING] Could not quarantine (file may be gone): Failed to quarantine c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (3): File no longer exists after waiting: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (3)
+[2025-05-29 14:55:54] [WARNING] Could not quarantine (file may be gone): Failed to quarantine c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (3): File no longer exists after waiting: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (3)
+[2025-05-29 14:55:55] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)
+[2025-05-29 14:55:55] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)
+[2025-05-29 14:55:55] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)
+[2025-05-29 14:55:55] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)
+[2025-05-29 14:55:55] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)
+[2025-05-29 14:55:55] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)
+[2025-05-29 14:55:55] [WARNING] YARA scan failed: could not open file "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)" — file likely gone: c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4)
+[2025-05-29 14:55:55] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e (4) => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A

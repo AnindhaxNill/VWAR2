@@ -16,7 +16,7 @@ import os
 from datetime import datetime
 import shutil
 import json
-from utils.logger import log_message
+
 from Scanning.scanner_core import scan_file_for_realtime 
 
 

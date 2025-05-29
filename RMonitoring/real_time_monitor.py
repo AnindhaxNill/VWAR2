@@ -6,7 +6,7 @@ import getpass
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from Scanning.scanner_core import scan_file_for_realtime
-
+from utils.logger import log_message
 
 def is_file_ready(path):
     try:
@@ -101,7 +101,7 @@ class RealTimeMonitor(FileSystemEventHandler):
         if path in self.recent_events and now - self.recent_events[path] < 5:
             return
 
-        print(f"[DEBUG] File event: {path}")
+        # print(f"[DEBUG] File event: {path}")
         threading.Thread(target=self.wait_and_scan_file, args=(path,), daemon=True).start()
 
 
@@ -130,12 +130,12 @@ class RealTimeMonitor(FileSystemEventHandler):
             time.sleep(0.2)
 
             if getattr(self.gui, "monitoring_active", False):
-                print(f"[DEBUG] Scanning file: {path}")
+                # print(f"[DEBUG] Scanning file: {path}")
                 try:
                     matched, rule, file_path, meta_path = scan_file_for_realtime(path)
 
                     if matched and meta_path:
-                        monitor_page = self.gui.pages.get("monitor")
+                        monitor_page = self.gui
                         if monitor_page and hasattr(monitor_page, "add_to_quarantine_listbox"):
                             monitor_page.add_to_quarantine_listbox(file_path, meta_path, [rule])
 

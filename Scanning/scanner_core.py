@@ -41,7 +41,7 @@ def scan_file_for_realtime(file_path):
                 quarantine_path = quarantine_file(file_path, matched_rules=[rule])
             except RuntimeError as qe:
                 # log_message(f"[WARNING] Could not quarantine (file may be gone): {qe}")
-                print(f"[WARNING] Could not quarantine (file may be gone): {qe}")
+                log_message(f"[WARNING] Could not quarantine (file may be gone): {qe}")
                 return False, None, file_path, None
 
             meta_path = quarantine_path + ".meta"

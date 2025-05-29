@@ -149,7 +149,7 @@ class VWARScannerGUI:
         # ✅ If Monitor page is shown, auto-refresh list
         if name == "monitor":
             try:
-                self.update_quarantine_listbox()
+                self.pages["monitor"].update_quarantine_listbox()
                 print("[DEBUG] Auto-refreshed quarantine list in Monitor page.")
             except Exception as e:
                 print(f"[ERROR] Failed to refresh Monitor page: {e}")
@@ -201,32 +201,6 @@ class VWARScannerGUI:
 
 
 
-    def update_quarantine_listbox(self):
-        """Refresh the quarantine list with current files."""
-        self.quarantine_listbox.delete(0, "end")
-        self.display_index_to_meta = {}
-
-        if not os.path.exists(self.quarantine_folder):
-            return
-
-        # ✅ Step 1: Get and sort files
-        files = [f for f in os.listdir(self.quarantine_folder) if f.endswith(".quarantined")]
-        files.sort(key=lambda f: os.path.getctime(os.path.join(self.quarantine_folder, f)))
-
-        # ✅ Step 2: Loop and number them
-        for index, file in enumerate(files, start=1):
-            base_name = file[:-12]  # Remove '.quarantined'
-            meta_file = os.path.join(self.quarantine_folder, file + ".meta")
-            if os.path.exists(meta_file):
-                try:
-                    with open(meta_file, "r", encoding="utf-8") as f:
-                        meta = json.load(f)
-                    original_path = meta.get("original_path", "Unknown")
-                    display = f"{index}. File: {base_name}\n→ From: {original_path}"
-                    self.quarantine_listbox.insert("end", display)
-                    self.display_index_to_meta[self.quarantine_listbox.size() - 1] = meta_file
-                except Exception as e:
-                    print(f"[WARNING] Failed to load metadata for {file}: {e}")
 
 
     def get_all_accessible_drives(self):

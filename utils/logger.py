@@ -7,7 +7,7 @@ LOG_PATH = os.path.join("data", "vwar.log")
 def log_message(message: str, to_file: bool = True):
     """Log message to console and optionally to a log file."""
     timestamped = f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}"
-    print(timestamped)
+    # print(timestamped)
 
     if to_file:
         try:

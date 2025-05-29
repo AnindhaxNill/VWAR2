@@ -223,7 +223,7 @@ def quarantine_file(file_path, matched_rules=None):
                 json.dump(metadata, f, indent=4)
 
             # log_message(f"[QUARANTINED] {file_path} → {quarantine_path}")
-            print(f"line 225 quraintine[QUARANTINED] {file_path} → {quarantine_path}")
+            # print(f"line 225 quraintine[QUARANTINED] {file_path} → {quarantine_path}")
             return quarantine_path
         else:
             raise RuntimeError(f"Quarantined file unexpectedly missing: {quarantine_path}")
