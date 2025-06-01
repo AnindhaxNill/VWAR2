@@ -4,6 +4,7 @@ import traceback
 from Scanning.yara_engine import compile_yara_rules
 from Scanning.quarantine import quarantine_file
 from utils.logger import log_message
+from utils.notify import notify
 import yara
 # Compile rules once at module load
 rules = compile_yara_rules()
@@ -46,6 +47,7 @@ def scan_file_for_realtime(file_path):
 
             meta_path = quarantine_path + ".meta"
             log_message(f"[MATCH] {file_path} => Rule: {rule}")
+            notify("Threat quarantined!",f"RULE:{rule}\nPath:{file_path}\n")
             return True, rule, quarantine_path, meta_path
 
     except Exception:
