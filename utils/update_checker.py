@@ -26,8 +26,6 @@ def up_to():
             # print(data)
         
         latest = data["latest_version"]
-        download_url = data["download_url"]
-        notes = data.get("changelog", "")
         
         # update_status["changelog"]
         # update_status["download_url"]

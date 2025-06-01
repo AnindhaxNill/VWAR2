@@ -19,7 +19,6 @@ AUTO_BACKUP_CONFIG_PATH = "data/auto_backup.json"
 
 # === General App Settings ===
 APP_NAME = "VWAR Scanner"
-CURRENT_VERSION = "1.0.0"
 ICON_PATH = "assets/VWAR.ico"
 
 # === Activation ===

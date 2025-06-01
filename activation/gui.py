@@ -6,6 +6,7 @@ from tkinter import messagebox
 from activation.hwid import get_processor_info, get_motherboard_info
 from config import ACTIVATION_FILE, API_GET, API_POST
 from app_main import VWARScannerGUI
+from datetime import datetime
 
 
 # def show_activation_window():
@@ -92,6 +93,20 @@ def activate(license_key, root):
 
     # Already activated on this PC
     if current_cpu == server_cpu and current_mobo == server_mobo:
+        
+                # Step: Check expiration before allowing access
+        valid_till = found.get("valid_till")
+        try:
+            expiry = datetime.strptime(valid_till, "%Y-%m-%d %H:%M:%S")
+            if datetime.now() > expiry:
+                messagebox.showerror("Expired Key", "This license key has expired.")
+                return
+        except Exception as e:
+            messagebox.showerror("Invalid Date", f"Failed to validate license expiry:\n{e}")
+            return
+        
+        
+        
         _store_activation(found, current_cpu, current_mobo)
         messagebox.showinfo("Re-Activation", "VWAR Scanner is already activated on this system.")
         _launch_app(root)

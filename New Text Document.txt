@@ -17,6 +17,7 @@ vwar_scanner/
 │   ├── scan_page.py                  # GUI page for manual file/folder scan
 │   ├── yara_engine.py                # Fetch, categorize, and compile YARA rules
 │   ├── quarantine.py                 # Quarantine logic (move, restore, delete)
+│   ├── scanner_core.py 
 │
 ├── Backup/                           # 💾 Backup system (manual + auto)
 │   ├── __init__.py
@@ -35,6 +36,9 @@ vwar_scanner/
 │   ├── __init__.py
 │   ├── tooltip.py                   # Tooltip widget class
 │   ├── logger.py                    # Logging (to GUI + file if needed)
+│   ├── notify.py
+│   ├── update_checker.py
+│
 │
 ├── assets/                           # 🎨 Icons, visuals, and YARA rule storage
 │   ├── VWAR.ico                     # App icon for packaging

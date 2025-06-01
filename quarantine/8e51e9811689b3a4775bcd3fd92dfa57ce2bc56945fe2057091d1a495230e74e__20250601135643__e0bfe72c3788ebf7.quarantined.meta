@@ -1,8 +1,0 @@
-{
-    "original_path": "c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e",
-    "quarantined_path": "quarantine\\8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e__20250601135643__e0bfe72c3788ebf7.quarantined",
-    "timestamp": "2025-06-01 13:56:43",
-    "matched_rules": [
-        "APT_MAL_DNS_Hijacking_Campaign_AA19_024A"
-    ]
-}

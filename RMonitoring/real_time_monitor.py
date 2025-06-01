@@ -7,6 +7,8 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from Scanning.scanner_core import scan_file_for_realtime
 from utils.logger import log_message
+from queue import Queue
+
 
 def is_file_ready(path):
     try:
@@ -46,6 +48,11 @@ class RealTimeMonitor(FileSystemEventHandler):
 
         self.excluded_extensions = (".tmp", ".log", ".lock", ".crdownload", ".part", ".ds_store", "thumbs.db")
         self.excluded_prefixes = ("~$",)
+        self.scan_queue = Queue()
+        self.scan_worker = threading.Thread(target=self._scan_worker_loop, daemon=True)
+        self.scan_worker.start()
+
+        
 
     def start(self):
         print("[DEBUG] Starting RealTimeMonitor:")
@@ -102,15 +109,14 @@ class RealTimeMonitor(FileSystemEventHandler):
             return
 
         # print(f"[DEBUG] File event: {path}")
-        threading.Thread(target=self.wait_and_scan_file, args=(path,), daemon=True).start()
-
+        # threading.Thread(target=self.wait_and_scan_file, args=(path,), daemon=True).start()
+        self.scan_queue.put(path)
 
 
     def wait_and_scan_file(self, path):
         max_wait = 20
         waited = 0
         stable_counter = 0
-
         try:
             while waited < max_wait:
                 if is_file_ready(path):
@@ -160,3 +166,12 @@ class RealTimeMonitor(FileSystemEventHandler):
                 print(f"[INFO] Scanning pending: {path}")
                 self.wait_and_scan_file(path)
         self.pending_scan_files.clear()
+
+
+    def _scan_worker_loop(self):
+        while True:
+            try:
+                path = self.scan_queue.get()
+                self.wait_and_scan_file(path)
+            except Exception as e:
+                print(f"[ERROR] Worker failed: {e}")
