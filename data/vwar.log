@@ -359,3 +359,22 @@
 [2025-06-15 11:49:53] [ERROR] No YARA rules loaded.
 [2025-06-15 11:49:54] [ERROR] No YARA rules loaded.
 [2025-06-15 11:49:55] [ERROR] No YARA rules loaded.
+[2025-06-15 13:10:52] [INFO] YARA rules categorized and saved successfully.
+[2025-06-15 13:10:52] [INFO] Compiled 6 YARA rule files.
+[2025-06-15 13:12:42] [INFO] YARA rules categorized and saved successfully.
+[2025-06-15 13:12:42] [INFO] Compiled 6 YARA rule files.
+[2025-06-15 13:13:39] [MATCH] c:/users/bfini/downloads/8e51e9811689b3a4775bcd3fd92dfa57ce2bc56945fe2057091d1a495230e74e => Rule: APT_MAL_DNS_Hijacking_Campaign_AA19_024A
+[2025-06-15 13:23:48] [INFO] YARA rules categorized and saved successfully.
+[2025-06-15 13:23:48] [INFO] Compiled 6 YARA rule files.
+[2025-06-15 13:28:16] [INFO] YARA rules categorized and saved successfully.
+[2025-06-15 13:28:17] [INFO] Compiled 6 YARA rule files.
+[2025-06-15 13:29:40] [INFO] YARA rules categorized and saved successfully.
+[2025-06-15 13:29:40] [INFO] Compiled 6 YARA rule files.
+[2025-06-15 13:52:40] [INFO] YARA rules categorized and saved successfully.
+[2025-06-15 13:52:40] [INFO] Compiled 6 YARA rule files.
+[2025-06-15 13:54:36] [INFO] YARA rules categorized and saved successfully.
+[2025-06-15 13:54:36] [INFO] Compiled 6 YARA rule files.
+[2025-06-15 14:02:57] [INFO] YARA rules categorized and saved successfully.
+[2025-06-15 14:02:58] [INFO] Compiled 6 YARA rule files.
+[2025-06-15 14:05:21] [INFO] YARA rules categorized and saved successfully.
+[2025-06-15 14:05:21] [INFO] Compiled 6 YARA rule files.
