@@ -42,7 +42,7 @@ def check_for_updates():
         url = "https://raw.githubusercontent.com/AnindhaxNill/VWAR-release/master/update_info.json"
         with urllib.request.urlopen(url) as response:
             data = json.loads(response.read().decode())
-            print(data)
+            # print(data)
         
         latest = data["latest_version"]
         download_url = data["download_url"]
@@ -57,6 +57,9 @@ def check_for_updates():
             if messagebox.askyesno("Update Available",
                 f"A new version {latest} is available.\n\nChangelog:\n{notes}\n\nDo you want to update now?"):
                 webbrowser.open(download_url)
+                
+                
+        print("[Active status updeate _cheacker]active checked up to date")
             
     except Exception as e:
         print(f"[ERROR] Failed to check for updates: {e}")

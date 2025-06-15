@@ -38,10 +38,10 @@ def main():
     #     return
 
     # Step 2: Check activation
-    # if not is_activated():
-    #     print("[INFO] System not activated. Launching activation window...")
-    #     show_activation_window()
-    #     return
+    if not is_activated():
+        print("[INFO] System not activated. Launching activation window...")
+        show_activation_window()
+        return
     
     activated, reason = is_activated()
     if not activated:
@@ -60,3 +60,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
