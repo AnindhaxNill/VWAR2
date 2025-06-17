@@ -13,9 +13,9 @@ class BackupMainPage(Frame):
         Label(self, text="Backup & Restore Menu", font=("Inter", 20, "bold"), bg="#009AA5", fg="white").place(x=360, y=30)
 
         # Back Button
-        back_btn = Button(self, text="← Back", command=lambda: self.switch_page_callback("home"),
-                          bg="red", fg="white", font=("Inter", 12))
-        back_btn.place(x=20, y=20, width=80, height=30)
+        # back_btn = Button(self, text="← Back", command=lambda: self.switch_page_callback("home"),
+        #                   bg="red", fg="white", font=("Inter", 12))
+        # back_btn.place(x=20, y=20, width=80, height=30)
         # Tooltip(back_btn, "Return to home page")
 
         # Manual Backup Button

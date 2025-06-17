@@ -6,7 +6,8 @@ from tkinter import messagebox
 from activation.hwid import get_processor_info, get_motherboard_info
 from config import ACTIVATION_FILE, API_GET, API_POST
 from app_main import VWARScannerGUI
-
+from datetime import datetime
+from config import ICON_PATH
 
 # def show_activation_window():
 #     """Launch the activation GUI window."""
@@ -35,6 +36,7 @@ def show_activation_window(reason=None):
     root.title("Activate VWAR Scanner")
     root.geometry("400x250")
     root.configure(bg="#1e1e1e")
+    # root.iconbitmap(ICON_PATH)
     root.resizable(False, False)
 
     # Optional reason label
@@ -65,7 +67,7 @@ def activate(license_key, root):
         records = response.json().get("data", [])
         
     except Exception as e:
-        messagebox.showerror("API Error", f"Failed to connect to activation server:\n{e}")
+        messagebox.showerror("API Error", f"Failed to connect to activation server")
         return
 
     current_cpu = get_processor_info()
@@ -92,6 +94,20 @@ def activate(license_key, root):
 
     # Already activated on this PC
     if current_cpu == server_cpu and current_mobo == server_mobo:
+        
+                # Step: Check expiration before allowing access
+        valid_till = found.get("valid_till")
+        try:
+            expiry = datetime.strptime(valid_till, "%Y-%m-%d %H:%M:%S")
+            if datetime.now() > expiry:
+                messagebox.showerror("Expired Key", "This license key has expired.")
+                return
+        except Exception as e:
+            messagebox.showerror("Invalid Date", f"Failed to validate license expiry:\n{e}")
+            return
+        
+        
+        
         _store_activation(found, current_cpu, current_mobo)
         messagebox.showinfo("Re-Activation", "VWAR Scanner is already activated on this system.")
         _launch_app(root)

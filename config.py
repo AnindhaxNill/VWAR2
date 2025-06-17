@@ -7,7 +7,7 @@
 # CURRENT_VERSION = "1.0.0"
 
 import os
-
+from utils.path_utils import resource_path
 
 
 API_GET = "https://bitts.fr/vwar_windows/getAPI.php"
@@ -15,11 +15,21 @@ API_POST = "https://bitts.fr/vwar_windows/postAPI.php"
 UPDATE_URL = "https://raw.githubusercontent.com/AnindhaxNill/VWAR-release/master/update_info.json"
 
 
+
+
+
+
+
+
+
 AUTO_BACKUP_CONFIG_PATH = "data/auto_backup.json"
 
 # === General App Settings ===
 APP_NAME = "VWAR Scanner"
-CURRENT_VERSION = "1.0.0"
+
+
+
+# ICON_PATH = resource_path("assets/VWAR.ico")
 ICON_PATH = "assets/VWAR.ico"
 
 # === Activation ===
@@ -43,3 +53,4 @@ MONITOR_PATHS = [
 
 # === Log File (optional future use) ===
 LOG_FILE = os.path.join("data", "vwar.log")
+
