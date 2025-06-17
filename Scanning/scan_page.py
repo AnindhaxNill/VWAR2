@@ -337,9 +337,12 @@ class ScanPage(Frame):
         nav_frame = Frame(self, bg="#009AA5")
         nav_frame.pack(fill="x", pady=5, padx=5)
 
-        Button(nav_frame, text="← Back", command=lambda: self.switch_page_callback("home"),
-            bg="gold", fg="white", font=("Inter", 12)).pack(side="left")
-
+        # Button(nav_frame, text="← Back", command=lambda: self.switch_page_callback("home"),
+        #     bg="gold", fg="white", font=("Inter", 12)).pack(side="left")
+        # 🔹 Title
+        Label(nav_frame, text="Scanning page ", font=("Arial", 24),
+            bg="#009AA5", fg="white").pack(side="top",expand=True,fill='both')
+        
         Button(nav_frame, text="Show Quarantined Files", command=lambda: self.switch_page_callback("monitor"),
             bg="purple", fg="white", font=("Inter", 12)).pack(side="right", padx=(0, 10))
 

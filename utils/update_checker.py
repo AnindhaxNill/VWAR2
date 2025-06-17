@@ -42,15 +42,15 @@ def check_for_updates():
         url = "https://raw.githubusercontent.com/AnindhaxNill/VWAR-release/master/update_info.json"
         with urllib.request.urlopen(url) as response:
             data = json.loads(response.read().decode())
-            # print(data)
-        
+
+        print(data)
         latest = data["latest_version"]
         download_url = data["download_url"]
         notes = data.get("changelog", "")
         
         # update_status["changelog"]
         # update_status["download_url"]
-        
+
         
         
         if latest != CURRENT_VERSION:

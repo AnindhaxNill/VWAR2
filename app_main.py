@@ -244,7 +244,7 @@ class VWARScannerGUI:
         self.root.title("VWAR Scanner")
         self.root.geometry("1200x722")
         self.root.configure(bg="#009AA5")
-        self.root.iconbitmap(ICON_PATH)
+        
         AutoBackupScheduler().start()
 
         # Shared state used by all pages
@@ -309,6 +309,7 @@ class VWARScannerGUI:
         self.show_page("home")
         
         
+        self.root.iconbitmap(ICON_PATH)
 
         # Cleanup on close
         self.root.protocol("WM_DELETE_WINDOW", self.on_close)
@@ -396,7 +397,7 @@ class VWARScannerGUI:
         
         if up_to() == 1:
             Button(update_frame, text="🔺 Update Available", command=check_for_updates,
-                bg="white", fg="yellow", font=("Arial", 10)).pack(side='left')
+                bg="white", fg="red", font=("Arial", 10)).pack(side='left')
         else:
             Label(update_frame, text="✅ Up to Date", font=("Arial", 10),
                 bg="white", fg="green").pack(side='left')
@@ -405,12 +406,6 @@ class VWARScannerGUI:
         # 🔹 Title
         Label(frame, text="VWAR Scanner", font=("Arial", 24),
             bg="#009AA5", fg="white").pack(side="top",expand=True,fill='both')
-        
-        
-
-        
-        
-
         
         
                 # 🔹 User Info

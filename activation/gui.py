@@ -7,7 +7,7 @@ from activation.hwid import get_processor_info, get_motherboard_info
 from config import ACTIVATION_FILE, API_GET, API_POST
 from app_main import VWARScannerGUI
 from datetime import datetime
-
+from config import ICON_PATH
 
 # def show_activation_window():
 #     """Launch the activation GUI window."""
@@ -36,6 +36,7 @@ def show_activation_window(reason=None):
     root.title("Activate VWAR Scanner")
     root.geometry("400x250")
     root.configure(bg="#1e1e1e")
+    # root.iconbitmap(ICON_PATH)
     root.resizable(False, False)
 
     # Optional reason label
@@ -66,7 +67,7 @@ def activate(license_key, root):
         records = response.json().get("data", [])
         
     except Exception as e:
-        messagebox.showerror("API Error", f"Failed to connect to activation server:\n{e}")
+        messagebox.showerror("API Error", f"Failed to connect to activation server")
         return
 
     current_cpu = get_processor_info()
