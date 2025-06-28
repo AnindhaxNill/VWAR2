@@ -39,6 +39,8 @@ class RealTimeMonitor(FileSystemEventHandler):
             os.path.join("C:\\Windows"),
             os.path.join("C:\\$Recycle.Bin"),
             os.path.join("C:\\ProgramData"),
+            os.path.join("C:\\$WINDOWS.~BT"),
+            "C:\\pagefile.sys",
             "System Volume Information",
             os.path.join(os.getcwd(), "quarantine"),
             os.path.join(os.getcwd(), "backup"),
@@ -156,6 +158,33 @@ class RealTimeMonitor(FileSystemEventHandler):
         finally:
             self.recent_events[path] = time.time()
             self.already_scanned.discard(path)
+
+
+    # def wait_and_scan_file(self, path):
+    #     try:
+    #         if not os.path.exists(path):
+    #             return
+
+    #         if getattr(self.gui, "monitoring_active", False):
+    #             try:
+    #                 matched, rule, file_path, meta_path = scan_file_for_realtime(path)
+
+    #                 if matched and meta_path:
+    #                     monitor_page = self.gui
+    #                     if monitor_page and hasattr(monitor_page, "add_to_quarantine_listbox"):
+    #                         monitor_page.add_to_quarantine_listbox(file_path, meta_path, [rule])
+
+    #                     if hasattr(self.gui, "notify_threat_detected"):
+    #                         self.gui.notify_threat_detected(file_path, [rule])
+    #             except Exception as e:
+    #                 print(f"[ERROR] Failed scanning {path}: {e}")
+    #         else:
+    #             self.pending_scan_files.add(path)
+    #             print(f"[INFO] Queued for future scan: {path}")
+
+    #     finally:
+    #         self.recent_events[path] = time.time()
+    #         self.already_scanned.discard(path)
 
 
 

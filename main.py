@@ -72,7 +72,7 @@ def main():
     """
     Main entry point of the VWAR Scanner application.
     """
-    # Step 1: Elevate to admin
+    #Step 1: Elevate to admin
     if not is_admin():
         print("[INFO] Not running as admin. Relaunching...")
         run_as_admin()

@@ -16,7 +16,7 @@
 # class VWARScannerGUI:
 #     def __init__(self, root):
 #         self.root = root
-#         self.root.title("VWAR Scanner")
+#         self.root.title("VWAR SCANNER")
 #         self.root.geometry("1043x722")
 #         self.root.configure(bg="#009AA5")
 #         self.root.iconbitmap(ICON_PATH)
@@ -76,7 +76,7 @@
 
 
 
-#         Label(frame, text="VWAR Scanner", font=("Arial", 24), bg="#009AA5", fg="white").place(x=420, y=30)
+#         Label(frame, text="VWAR SCANNER", font=("Arial", 24), bg="#009AA5", fg="white").place(x=420, y=30)
 
 #         Button(frame, text="Scan Files", command=lambda: self.show_page("scan"),
 #                bg="blue", fg="white", font=("Arial", 16)).place(x=420, y=150, width=200, height=50)
@@ -235,13 +235,17 @@ from Backup.restore_page import RestoreBackupPage
 from Backup.auto_backup_page import AutoBackupPage
 from Backup.auto_backup import AutoBackupScheduler
 from RMonitoring.monitor_page import MonitorPage
-from utils.update_checker import check_for_updates,CURRENT_VERSION,up_to
+from utils.profile_info import LicenseTermsPage
 
+from datetime import datetime, timedelta
+from utils.update_checker import check_for_updates,CURRENT_VERSION,up_to
+from cryptography.fernet import Fernet
+import base64, hashlib
 
 class VWARScannerGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("VWAR Scanner")
+        self.root.title("VWAR SCANNER")
         self.root.geometry("1200x722")
         self.root.configure(bg="#009AA5")
         
@@ -295,6 +299,8 @@ class VWARScannerGUI:
         self.pages["restore_backup"] = RestoreBackupPage(self.main_area, self.show_page)
         self.pages["auto_backup"] = AutoBackupPage(self.main_area, self.show_page)
         self.pages["monitor"] = MonitorPage(self.main_area,self, self.show_page)
+        self.pages["license_terms"] = LicenseTermsPage(self.main_area, self)
+
         # Force start Real-Time Monitoring at launch
         try:
             self.pages["monitor"].toggle_monitoring()
@@ -316,8 +322,10 @@ class VWARScannerGUI:
         
         
     def build_sidebar(self):
-        Label(self.sidebar, text="📂 VWAR Scanner", font=("Arial", 14, "bold"),
+        Label(self.sidebar, text="📂 VWAR SCANNER", font=("Arial", 14, "bold"),
             bg="#004d4d", fg="white").pack(pady=20)
+
+
 
         Button(self.sidebar, text="🏠 Home", bg="#007777", fg="white", font=("Arial", 12),
             command=lambda: self.show_page("home")).pack(fill="x", padx=10, pady=5)
@@ -336,7 +344,7 @@ class VWARScannerGUI:
     # def create_home_page(self):
     #     frame = Frame(self.main_area, bg="#009AA5")
     #     self.pages["home"] = frame
-    #     Label(frame, text="VWAR Scanner", font=("Arial", 24), bg="#009AA5", fg="white").place(x=420, y=30)
+    #     Label(frame, text="VWAR SCANNER", font=("Arial", 24), bg="#009AA5", fg="white").place(x=420, y=30)
 
     #     Button(frame, text="Scan Files", command=lambda: self.show_page("scan"),
     #            bg="blue", fg="white", font=("Arial", 16)).place(x=420, y=150, width=200, height=50)
@@ -385,12 +393,17 @@ class VWARScannerGUI:
         
        
     #     self.animate_home_status()
+    
+
+    
     def create_home_page(self):
         frame = Frame(self.main_area, bg="#009AA5")
         self.pages["home"] = frame
         
         
-        
+        Button(frame, text="📋 License Terms", font=("Arial", 10),
+       command=lambda: self.show_page("license_terms")).pack(side='right')
+
         # 🔹 Update Status
         update_frame = Frame(frame, bg="#009AA5")
         update_frame.pack(side="top",fill='x')
@@ -404,7 +417,7 @@ class VWARScannerGUI:
         
         
         # 🔹 Title
-        Label(frame, text="VWAR Scanner", font=("Arial", 24),
+        Label(frame, text="VWAR SCANNER", font=("Arial", 24),
             bg="#009AA5", fg="white").pack(side="top",expand=True,fill='both')
         
         
@@ -441,13 +454,13 @@ class VWARScannerGUI:
         
         Label(contact_frame, text=f"Version: {CURRENT_VERSION}",
             bg="#009AA5", fg="white", font=("Arial", 10)).pack(anchor="w")
-        Label(contact_frame, text="Developer: Bitss.fr",
+        Label(contact_frame, text="Developer BY : Bitss.fr",
             bg="#009AA5", fg="white", font=("Arial", 10)).pack(anchor="w")
-        Label(contact_frame, text="Email: Bitss.fr",
+        # Label(contact_frame, text="Email: Bitss.fr",
+        #     bg="#009AA5", fg="white", font=("Arial", 10)).pack(anchor="w")
+        Label(contact_frame, text="Website: http://www.bitss.fr",
             bg="#009AA5", fg="white", font=("Arial", 10)).pack(anchor="w")
-        Label(contact_frame, text="Website: www.Bitss.fr",
-            bg="#009AA5", fg="white", font=("Arial", 10)).pack(anchor="w")
-        Label(contact_frame, text="Support: Bitss.fr",
+        Label(contact_frame, text="Support: support@bobosohomail.com",
             bg="#009AA5", fg="white", font=("Arial", 10)).pack(anchor="w")
 
         # # 🔹 Buttons (Stacked Centered)
@@ -462,19 +475,6 @@ class VWARScannerGUI:
 
         # Button(button_frame, text="Auto Scan", command=lambda: self.show_page("monitor"),
         #     bg="green", fg="white", font=("Arial", 16), width=20).pack(pady=10)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         # 🔄 Status Animation
@@ -531,16 +531,39 @@ class VWARScannerGUI:
                 print(f"[ERROR] Failed to refresh Monitor page: {e}")
 
 
+    def generate_fernet_key_from_string(self,secret_string):
+        sha256 = hashlib.sha256(secret_string.encode()).digest()
+        return base64.urlsafe_b64encode(sha256)
 
+
+    
+    
     def load_activation_info(self):
         """Reads activation.json and sets user info."""
         try:
-            with open(ACTIVATION_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                self.activated_user = data.get("username", "Unknown")
-                self.valid_till = data.get("valid_till", "Unknown")
-        except Exception:
-            pass
+            SECRET_KEY = self.generate_fernet_key_from_string("VWAR@BIFIN")
+            fernet = Fernet(SECRET_KEY)
+            print("[DEBUG] Trying to load:", ACTIVATION_FILE)
+            with open(ACTIVATION_FILE, "rb") as f:
+                encrypted = f.read()
+                decrypted = fernet.decrypt(encrypted)
+                data = json.loads(decrypted.decode("utf-8"))
+
+            self.activated_user = data.get("username", "unknown")
+            self.valid_till = data.get("valid_till", "unknown")
+            self.created_at = data.get("created_at", "unknown")
+            
+                        
+            
+            
+            # with open(ACTIVATION_FILE, "r", encoding="utf-8") as f:
+            #     data = json.load(f)
+            self.activated_user = data.get("username","unknown" )
+            self.valid_till = data.get("valid_till","unknown")
+        except Exception  as  e:
+            print("[ERROR] Failed to load activation info:", e)
+            self.activated_user = "unknown"
+            self.valid_till = "unknown"
 
     def on_close(self):
         """Stops monitoring/backup if running, exits app cleanly."""

@@ -6,6 +6,8 @@ from Scanning.quarantine import quarantine_file
 from utils.logger import log_message
 from utils.notify import notify
 import yara
+import os  # at the top if not already imported
+
 # Compile rules once at module load
 rules = compile_yara_rules()
 
@@ -24,6 +26,13 @@ def scan_file_for_realtime(file_path):
     try:
         # Match rules
         try:
+            
+            # Skip scanning internal YARA rule files
+            normalized_path = file_path.replace("\\", "/").lower()
+            if "assets/yara" in normalized_path:
+                log_message(f"[SKIPPED] Ignored scanning internal YARA file: {file_path}")
+                return False, None, file_path, None
+
             matches = rules.match(file_path, timeout=60)
         except yara.Error as e:
             log_message(f"[WARNING] YARA scan failed: {e} — file likely gone: {file_path}")

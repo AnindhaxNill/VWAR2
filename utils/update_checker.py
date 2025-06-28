@@ -43,7 +43,7 @@ def check_for_updates():
         with urllib.request.urlopen(url) as response:
             data = json.loads(response.read().decode())
 
-        print(data)
+        # print(data)
         latest = data["latest_version"]
         download_url = data["download_url"]
         notes = data.get("changelog", "")

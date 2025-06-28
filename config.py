@@ -33,7 +33,7 @@ APP_NAME = "VWAR Scanner"
 ICON_PATH = "assets/VWAR.ico"
 
 # === Activation ===
-ACTIVATION_FILE = os.path.join("data", "activation.json")
+ACTIVATION_FILE = os.path.join("data", "activation.enc")
 
 # === YARA Rule Handling ===
 YARA_FOLDER = os.path.join("assets", "yara")

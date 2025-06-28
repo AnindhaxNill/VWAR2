@@ -8,6 +8,15 @@ from config import ACTIVATION_FILE, API_GET, API_POST
 from app_main import VWARScannerGUI
 from datetime import datetime
 from config import ICON_PATH
+from cryptography.fernet import Fernet
+import base64, hashlib
+
+def generate_fernet_key_from_string(secret_string):
+    sha256 = hashlib.sha256(secret_string.encode()).digest()
+    return base64.urlsafe_b64encode(sha256)
+
+SECRET_KEY = generate_fernet_key_from_string("VWAR@BIFIN")
+fernet = Fernet(SECRET_KEY)
 
 # def show_activation_window():
 #     """Launch the activation GUI window."""
@@ -28,6 +37,7 @@ from config import ICON_PATH
 #     ).pack(pady=20)
 
 #     root.mainloop()
+
 
 
 def show_activation_window(reason=None):
@@ -115,6 +125,8 @@ def activate(license_key, root):
 
     # Key is in use on another system
     elif server_cpu and server_mobo:
+        # print(f"{license_key} empty ")
+    # if (server_cpu is None or server_cpu == "") and (server_mobo is None or server_mobo == ""):
         messagebox.showerror("Key In Use", "This key is already activated on another system.")
         return
 
@@ -125,10 +137,13 @@ def activate(license_key, root):
             "processor_id": current_cpu,
             "motherboard_id": current_mobo
         }
-        bind_response = requests.post(API_POST, data=bind_payload)
-        bind_response.raise_for_status()
+        
+        bind_response = requests.post(API_POST, json=bind_payload)
+        a= bind_response.json()
+        print(a['status'])
+        
 
-        if bind_response.text.strip().lower() == "success":
+        if a['status'] == "success":
             _store_activation(found, current_cpu, current_mobo)
             messagebox.showinfo("Activated", "Activation successful!")
             _launch_app(root)
@@ -155,8 +170,13 @@ def _store_activation(record, cpu, mobo):
             "valid_till": record["valid_till"],
             "created_at": record.get("created_at", "")
         }
-        with open(ACTIVATION_FILE, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=4)
+        json_str = json.dumps(data).encode("utf-8")
+        encrypted = fernet.encrypt(json_str)
+        with open(ACTIVATION_FILE, "wb") as f:
+            f.write(encrypted)
+        # with open(ACTIVATION_FILE, "w", encoding="utf-8") as f:
+        #     json.dump(data, f, indent=4)
+        
         print("[INFO] Activation info stored.")
     except Exception as e:
         print(f"[ERROR] Failed to store activation: {e}")
