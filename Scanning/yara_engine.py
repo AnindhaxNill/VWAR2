@@ -9,7 +9,7 @@ from utils.logger import log_message
 def fetch_and_generate_yara_rules(log_func=print):
     """Fetch categorized YARA rules from remote and store locally."""
     try:
-        url = "https://library.bitss.fr/windows.php"
+        url = "https://library.bitss.one/windows.php"
         response = requests.get(url)
         response.raise_for_status()
 

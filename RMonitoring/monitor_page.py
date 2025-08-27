@@ -1,5 +1,3 @@
-# RMonitoring/monitor_page.py
-
 import os
 import re
 import json
@@ -8,6 +6,7 @@ from tkinter import Frame, Label, Button, Listbox, Scrollbar, Text, StringVar, f
 from RMonitoring.real_time_monitor import RealTimeMonitor
 from utils.tooltip import Tooltip
 from utils.logger import log_message
+
 class MonitorPage(Frame):
     def __init__(self, root, app_main, switch_page_callback):
         super().__init__(root, bg="#009AA5")
@@ -17,9 +16,8 @@ class MonitorPage(Frame):
 
         self.display_index_to_meta = {}
         self.monitoring_active = False
-        self.monitoring_active = self.monitoring_active
         self.auto_scan_button_text = StringVar(value="Start Auto Scanning")
-        
+
         self.quarantine_folder = os.path.join(os.getcwd(), "quarantine")
 
         self.setup_gui()
@@ -67,22 +65,35 @@ class MonitorPage(Frame):
         self.update_quarantine_listbox()
 
     def toggle_monitoring(self):
+        monitor_exe_path = os.path.join(os.getcwd(), "vwar_monitor/vwar_monitor.exe")
+        print(f"[DEBUG] Monitor EXE Path: {monitor_exe_path}")
+        if not os.path.exists(monitor_exe_path):
+            messagebox.showerror("File Not Found", f"VWAR Monitor executable not found:\n{monitor_exe_path}")
+            return
+        
+        
         if self.monitoring_active:
-            self.monitor.stop()
+            # Stop the C++ real-time monitoring engine
+            if hasattr(self, "monitor") and self.monitor:
+                self.monitor.stop_cpp_monitor_engine()
             self.monitoring_active = False
-            self.monitoring_active = False  # ✅ KEEP THIS IN SYNC
             self.auto_scan_button_text.set("Start Auto Scanning")
             self.auto_scan_status_label.config(text="Status: Stopped", fg="red")
         else:
-            self.monitor = RealTimeMonitor(self, self.app_main.watch_paths)
-            self.monitor.start()
+            # Create monitor instance with included watch paths
+            # self.monitor = RealTimeMonitor(self, self.app_main.watch_paths) V1
+            self.monitor = RealTimeMonitor(self)
+
+            # Start the C++ real-time monitoring engine
+            self.monitor.start_cpp_monitor_engine()
+
+            # Process any pending files in the queue
             self.monitor.process_pending_files()
+
             self.monitoring_active = True
-            self.monitoring_active = True  # ✅ KEEP THIS IN SYNC
             self.auto_scan_button_text.set("Stop Auto Scanning")
             self.auto_scan_status_label.config(text="Status: Running ●", fg="green")
             self.animate_status()
-
 
     def animate_status(self):
         if self.monitoring_active:
@@ -113,47 +124,20 @@ class MonitorPage(Frame):
         self.detail_text.insert("end", detail_text)
         self.detail_text.config(state="disabled")
 
-    # def delete_selected(self):
-    #     index = self.quarantine_listbox.curselection()
-    #     if not index:
-    #         return
-    #     selected = self.quarantine_listbox.get(index)
-    #     match = re.search(r"→ From:\s*(.+)", selected)
-    #     if not match:
-    #         messagebox.showerror("Error", "Could not parse original path.")
-    #         return
-    #     file_path = match.group(1)
-    #     fname = os.path.basename(file_path)
-    #     for file in os.listdir("quarantine"):
-    #         if file.startswith(fname) and file.endswith(".quarantined"):
-    #             qpath = os.path.join("quarantine", file)
-    #             mpath = qpath + ".meta"
-    #             try:
-    #                 if os.path.exists(qpath): os.remove(qpath)
-    #                 if os.path.exists(mpath): os.remove(mpath)
-    #                 self.quarantine_listbox.delete(index)
-    #                 self.detail_text.config(state="normal")
-    #                 self.detail_text.delete("1.0", "end")
-    #                 self.detail_text.config(state="disabled")
-    #                 self.update_quarantine_listbox()
-    #             except Exception as e:
-    #                 print(f"[ERROR] Delete failed: {e}")
-    #             break
-
     def delete_selected(self):
         index = self.quarantine_listbox.curselection()
         if not index:
             return
         index = index[0]
 
-        # ✅ Use stored meta path instead of parsing text
+        # Use stored meta path instead of parsing text
         meta_path = self.display_index_to_meta.get(index)
         if not meta_path:
             messagebox.showerror("Error", "Metadata not found for selected file.")
             return
 
         qpath = meta_path.replace(".meta", "")
-        
+
         try:
             if os.path.exists(qpath): os.remove(qpath)
             if os.path.exists(meta_path): os.remove(meta_path)
@@ -166,8 +150,6 @@ class MonitorPage(Frame):
             print(f"[INFO] Deleted {qpath} and metadata.")
         except Exception as e:
             print(f"[ERROR] Delete failed: {e}")
-
-
 
     def restore_quarantined_file(self):
         index = self.quarantine_listbox.curselection()
@@ -228,19 +210,7 @@ class MonitorPage(Frame):
         display_text = f"File: {file_name}\n→ From: {file_path}\n→ Matched: {', '.join(matched_rules)}\n→ Time: {timestamp}"
         self.quarantine_listbox.insert("end", display_text)
         self.display_index_to_meta[self.quarantine_listbox.size() - 1] = meta_path
-        # self.update_quarantine_listbox()
         self.root.after(0, self.update_quarantine_listbox)
-        
-        
-        # Schedule the update to run in the main thread
-    #     self.root.after(0, self._safe_add_to_listbox, display_text, meta_path)
-
-    # def _safe_add_to_listbox(self, display_text, meta_path):
-    #     self.quarantine_listbox.insert("end", display_text)
-    #     self.display_index_to_meta[self.quarantine_listbox.size() - 1] = meta_path
-    #     self.quarantine_listbox.see("end")  # Scroll to show the new item
-    #     self.quarantine_listbox.update()  # Force UI refresh
-
 
     def update_quarantine_listbox(self):
         """Refresh the quarantine list with current files."""
@@ -250,11 +220,10 @@ class MonitorPage(Frame):
         if not os.path.exists(self.quarantine_folder):
             return
 
-        # ✅ Step 1: Get and sort files
+        # Get and sort quarantined files by creation time
         files = [f for f in os.listdir(self.quarantine_folder) if f.endswith(".quarantined")]
         files.sort(key=lambda f: os.path.getctime(os.path.join(self.quarantine_folder, f)))
 
-        # ✅ Step 2: Loop and number them
         for index, file in enumerate(files, start=1):
             base_name = file[:-12]  # Remove '.quarantined'
             meta_file = os.path.join(self.quarantine_folder, file + ".meta")

@@ -1,0 +1,10 @@
+pyinstaller --onefile --windowed --icon=assets/VWAR.ico  --manifest=vwar.manifest --add-data "assets/VWAR.ico;assets" --name VWAR  main.py 
+
+
+pyinstaller --onefile --windowed ^
+  --icon=assets/VWAR.ico ^
+  --manifest=vwar.manifest ^
+  --add-data "assets/VWAR.ico;assets" ^
+  --add-data "vwar_monitor;vwar_monitor" ^
+  --name VWAR ^
+  main.py

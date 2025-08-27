@@ -454,11 +454,11 @@ class VWARScannerGUI:
         
         Label(contact_frame, text=f"Version: {CURRENT_VERSION}",
             bg="#009AA5", fg="white", font=("Arial", 10)).pack(anchor="w")
-        Label(contact_frame, text="Developer BY : Bitss.fr",
+        Label(contact_frame, text="Developer BY : Bitss.one",
             bg="#009AA5", fg="white", font=("Arial", 10)).pack(anchor="w")
         # Label(contact_frame, text="Email: Bitss.fr",
         #     bg="#009AA5", fg="white", font=("Arial", 10)).pack(anchor="w")
-        Label(contact_frame, text="Website: http://www.bitss.fr",
+        Label(contact_frame, text="Website: http://www.bitss.one",
             bg="#009AA5", fg="white", font=("Arial", 10)).pack(anchor="w")
         Label(contact_frame, text="Support: support@bobosohomail.com",
             bg="#009AA5", fg="white", font=("Arial", 10)).pack(anchor="w")
